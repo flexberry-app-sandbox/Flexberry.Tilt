@@ -12,71 +12,71 @@
     "Frontend": {
       "EmberJs": {
         "EmberApp": true,
-        "EmberAddon": false,
+        "EmberAddon": true,
         "Build": true,
-        "GitClone": false,
-        "GitPush": false,
+        "GitClone": true,
+        "GitPush": true,
         "GhPagesPush": true,
-        "EmberMetadata": false
+        "EmberMetadata": true
       },
       "ApacheCordova": {
-        "CordovaProject": false,
+        "CordovaProject": true,
         "BuildApp": true
       }
     },
     "Backend": {
       "AspNet": true,
-      "AspNetCore": false,
-      "Java": false
+      "AspNetCore": true,
+      "Java": true
     },
     "Docker": {
       "Dockerfile": true,
-      "DockerfileAutobuild": false,
-      "DockerBuildShellScript": false,
-      "DockerSwarm": false
+      "DockerfileAutobuild": true,
+      "DockerBuildShellScript": true,
+      "DockerSwarm": true
     },
     "Storage": {
       "Mssql": {
-        "DiffSql": false,
+        "DiffSql": true,
         "FullSql": true,
-        "LiquibaseSql": false,
-        "Security": false,
-        "AdminUser": false,
+        "LiquibaseSql": true,
+        "Security": true,
+        "AdminUser": true,
         "ConnectionString": null
       },
       "PostgreSql": {
-        "DiffSql": false,
+        "DiffSql": true,
         "FullSql": true,
-        "LiquibaseSql": false,
-        "Security": false,
-        "AdminUser": false,
+        "LiquibaseSql": true,
+        "Security": true,
+        "AdminUser": true,
         "ConnectionString": null
       },
       "ClickHouse": {
-        "DiffSql": false,
-        "FullSql": false,
+        "DiffSql": true,
+        "FullSql": true,
         "ConnectionString": null
       },
       "Oracle": {
-        "DiffSql": false,
+        "DiffSql": true,
         "FullSql": true,
         "ConnectionString": null
       },
       "Access": {
-        "DiffSql": false,
-        "FullSql": false,
+        "DiffSql": true,
+        "FullSql": true,
         "ConnectionString": null
       }
     },
     "Docs": {
-      "Csv": false,
-      "Wmf": false
+      "Csv": true,
+      "Wmf": true
     },
     "Metadata": {
-      "Crp": false,
-      "Json": false,
-      "Jdl": false,
-      "PlantUML": false
+      "Crp": true,
+      "Json": true,
+      "Jdl": true,
+      "PlantUML": true
     }
   }
 }
